@@ -13,9 +13,7 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>專訪李蘇平博士——氫能領航者對終身學習的啟示</title>
-    <strong><p>專訪李蘇平博士——氫能領航者對終身學習的啟示</p></strong>
-    <br>
-    <br>
+    <!-- REMOVED: Redundant <p> and <br> tags here -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -62,9 +60,9 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
             margin-top: 25px;
             margin-bottom: 15px;
         }
-        strong {
+        b { /* Changed from strong to b as per user's preference */
             color: #e74c3c; /* Accent red for highlights */
-            font-weight: bold; /* Explicitly set font-weight to bold for strong tag */
+            font-weight: bold; /* Explicitly set font-weight to bold for b tag */
         }
         .nav-link {
             transition: color 0.3s ease;
@@ -140,6 +138,25 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
         .cross-discipline-item:hover {
             background-color: #bdc3c7; /* Slightly darker grey */
         }
+        .highlight-box {
+            background-color: #ffe0b2; /* Light orange/peach background */
+            border: 2px solid #ff9800; /* Orange border */
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #d35400; /* Darker orange text */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .highlight-box {
+                font-size: 1.1em;
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body class="scroll-smooth">
@@ -170,9 +187,9 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
                 李博士人生經歷不凡，是一位學貫中西、橫跨多個領域的<b>傳奇人物</b>。他不僅是<b>國家級的網絡安全專家</b>，守護著關鍵信息系統，更是<b>氫能技術的領航者</b>，推動綠色交通的未來。從深厚的理工工程背景到教育、金融、醫療、人文甚至玄學的廣泛涉獵，李博士展現了終身學習的熱情和將理論與實踐完美結合的能力。他致力於將前沿科技落地應用，並以身作則，啟發年輕一代腳踏實地、心繫社會，成為一個有能力、有擔當的人。
             </p>
             <div class="flex justify-center mb-6">
-                <img src="https://raw.githubusercontent.com/lstclhng/lsp1/99205706d49a375f6189dbe7a96ab122c13f30d4/Screenshot_20250613_180129_Photos.jpg" alt="李博士接受梁中學生編輯委員會訪問" class="rounded-lg shadow-md w-full md:w-3/4 lg:w-1/2">
+                <img src="https://raw.githubusercontent.com/lstclhng/lsp1/99205706d49a375f6189dbe7a96ab122c13f30d4/Screenshot_20250613_180129_Photos.jpg" alt="李博士接受梁中學生編輯委員會訪問" class="rounded-lg shadow-md w-full md:w-3/4 lg:w-1/2" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/000000?text=圖片載入失敗';">
             </div>
-            <p>李博士接受梁中學生編輯委員會訪問。</p>
+            <p class="text-center">李博士接受梁中學生編輯委員會訪問。</p>
         </section>
 
         <!-- Cybersecurity Section -->
@@ -200,12 +217,14 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
             </p>
 
             <div class="flex justify-center mb-6">
-                <img src="https://raw.githubusercontent.com/lstclhng/lsp1/99205706d49a375f6189dbe7a96ab122c13f30d4/IMG-20250613-WA0082.jpg" alt="李博士6月12日深夜主持地鐵軌道的檢查工作" class="rounded-lg shadow-md w-full md:w-3/4 lg:w-1/2">
+                <img src="https://raw.githubusercontent.com/lstclhng/lsp1/99205706d49a375f6189dbe7a96ab122c13f30d4/IMG-20250613-WA0082.jpg" alt="李博士6月12日深夜主持地鐵軌道的檢查工作" class="rounded-lg shadow-md w-full md:w-3/4 lg:w-1/2" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/000000?text=圖片載入失敗';">
             </div>
-            <p Align="center"> 李博士6月12日深夜主持地鐵軌道的檢查工作。 </p>
+            <p class="text-center">李博士6月12日深夜主持地鐵軌道的檢查工作。</p>
+
             <div class="highlight-box">
                 李博士團隊的最新氫能技術「固態氫」，是香港人在香港研發，並取得專利；而有別於日本的氫能技術或台灣地區的固態氫。
-            </div>            
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-6">
                 <div>
                     <p class="mb-4">
@@ -234,9 +253,9 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
                 本節將深入探討李博士的人生智慧與哲學理念。從他對終身學習的堅持，到對「因勢利導」的獨到見解，您將領略一位智者如何將多元知識融會貫通，並啟迪他人。
             </p>
             <div class="flex justify-center mb-6">
-                <img src="https://raw.githubusercontent.com/lstclhng/lsp1/99205706d49a375f6189dbe7a96ab122c13f30d4/IMG-20250523-WA0075.jpg" alt="李博士接受其他媒體採訪" class="rounded-lg shadow-md w-full md:w-3/4 lg:w-1/2">
+                <img src="https://raw.githubusercontent.com/lstclhng/lsp1/99205706d49a375f6189dbe7a96ab122c13f30d4/IMG-20250523-WA0075.jpg" alt="李博士接受其他媒體採訪" class="rounded-lg shadow-md w-full md:w-3/4 lg:w-1/2" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/000000?text=圖片載入失敗';">
             </div>
-            <p Align="center"> 李博士接受其他媒體採訪。</p>
+            <p class="text-center">李博士接受其他媒體採訪。</p>
             <br>
             <p class="mb-4">
                 李蘇平博士的人生，完美詮釋了「活到老，學到老」的真諦。儘管年逾古稀，他仍奮戰在科研教學前線。他以自身為例，強調能力決定一切：「如果我沒有技術，沒有能力，人家還要不要我？75 歲啦，你請人會不會請？我是一個大明星？你們說不會？那就對了！」這句話雖幽默，卻點明了立足社會的根本——能力，而能力源於不斷學習的內驅力。所以，他不僅是技術的專家，更是醫學、哲學、人文等領域的探索者。他曾無償在疫情期間幫助中醫院看診上千人；他對音樂又有深厚興趣，甚至研究過音頻對人體的影響……
@@ -265,246 +284,3 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
                     </p>
                 </div>
             </div>
-        </section>
-
-        <!-- Message to Students Section -->
-        <section id="message-section" class="section-container">
-            <h2>寄語學子</h2>
-            <p class="mb-4">
-                本節匯聚了李博士對年輕一代的期許與寶貴建議。他以其豐富的人生經驗，為正探索未來、憧憬夢想的中學生們，提供了實用而深刻的指引。
-            </p>
-            <p class="mb-4">
-                李蘇平博士的人生，是一部不斷進化的傳奇。他的故事告訴我們，無論年齡、起點，只要保持學習熱情，就能不斷突破自我，活出精彩。這對每一位正探索未來、憧憬夢想的中學生，無疑是最好的指引。
-            </p>
-        </section>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Scroll Progress Bar
-            window.onscroll = function() {
-                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                const scrolled = (winScroll / height) * 100;
-                document.getElementById('progressBar').style.width = scrolled + "%";
-            };
-
-            // Cybersecurity number animation
-            const animateNumbers = () => {
-                document.querySelectorAll('.animate-number').forEach(element => {
-                    const target = parseInt(element.getAttribute('data-target'));
-                    let current = 0;
-                    const duration = 2000; // milliseconds
-                    const stepTime = 10; // milliseconds
-
-                    // For positive integer targets (including 23 and 1)
-                    if (target > 0) {
-                        // Calculate increment per step, ensuring it's at least 1 to avoid infinite loop for small targets
-                        const increment = Math.max(1, Math.ceil(target / (duration / stepTime)));
-                        const timer = setInterval(() => {
-                            current += increment;
-                            if (current >= target) {
-                                clearInterval(timer);
-                                current = target;
-                            }
-                            element.textContent = current;
-                        }, stepTime);
-                    } else if (target === 0) { // For "0分毫", just set to 0 directly if needed
-                        element.textContent = '0';
-                    }
-                });
-            };
-
-
-            // Intersection Observer to trigger animation when section is in view
-            const cybersecuritySection = document.getElementById('cybersecurity-section');
-            let hasAnimated = false;
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting && !hasAnimated) {
-                        animateNumbers();
-                        hasAnimated = true;
-                        observer.disconnect(); // Stop observing once animated
-                    }
-                });
-            }, { threshold: 0.5 }); // Trigger when 50% of the section is visible
-
-            observer.observe(cybersecuritySection);
-
-
-            const toggleCybersecurityBtn = document.getElementById('toggle-cybersecurity');
-            const cybersecurityDetails = document.getElementById('cybersecurity-details');
-            const yinShiLiDaoDefinition = document.getElementById('yin-shi-li-dao-definition');
-            const yinShiLiDaoExplanation = document.getElementById('yin-shi-li-dao-explanation');
-            const hydrogenMilestoneDetail = document.getElementById('hydrogen-milestone-detail');
-
-            // Toggle Cybersecurity details
-            toggleCybersecurityBtn.addEventListener('click', () => {
-                cybersecurityDetails.classList.toggle('hidden');
-                if (cybersecurityDetails.classList.contains('hidden')) {
-                    toggleCybersecurityBtn.textContent = '了解更多網絡安全洞見';
-                } else {
-                    toggleCybersecurityBtn.textContent = '收起網絡安全洞見';
-                }
-            });
-
-            // Toggle Yin Shi Li Dao explanation
-            yinShiLiDaoDefinition.addEventListener('click', () => {
-                yinShiLiDaoExplanation.classList.toggle('hidden');
-                if (yinShiLiDaoExplanation.classList.contains('hidden')) {
-                    yinShiLiDaoDefinition.textContent = '點擊查看「因勢利導」的內涵';
-                } else {
-                    yinShiLiDaoDefinition.textContent = '收起「因勢利導」的內涵';
-                }
-            });
-
-            // Chart.js for Hydrogen Energy Milestones
-            const ctx = document.getElementById('hydrogenEnergyChart').getContext('2d');
-            const chartLabels = ['啟動研發', '首台機車', '北京冬奧', '港鐵輕鐵'];
-            const chartYears = [2008, 2013, 2022, 2024]; /* Updated year for 港鐵輕鐵 to 2024 */
-            const milestoneDetails = {
-                '啟動研發': '早在2008年，李博士就參與了氫能燃料電池的早期研發項目，為後續的技術突破奠定了基礎。',
-                '首台機車': '李博士團隊成功研發並上線了全國首台氫燃料電池混合動力機車 (約2013年)。',
-                '北京冬奧': '搭載「氫騰」電池的氫能大巴為北京冬奧會等重要活動提供服務 (約2022年)，展示了在實際應用中的可靠性。',
-                '港鐵輕鐵': '2024年，港鐵引進的第一台氫能源燃料電池輕軌列車，正是採用了李博士團隊的西南交通大學技術，標誌著研究成果在香港公共交通的成功應用。' /* Updated year in detail */
-            };
-
-            const hydrogenEnergyChart = new Chart(ctx, {
-                type: 'bar', /* Use 'bar' type with indexAxis: 'y' for horizontal bars */
-                data: {
-                    labels: chartLabels,
-                    datasets: [{
-                        label: '發展里程碑',
-                        data: chartYears,
-                        backgroundColor: [
-                            'rgba(74, 105, 189, 0.8)',
-                            'rgba(74, 105, 189, 0.8)',
-                            'rgba(74, 105, 189, 0.8)',
-                            'rgba(74, 105, 189, 0.8)'
-                        ],
-                        borderColor: [
-                            'rgba(74, 105, 189, 1)',
-                            'rgba(74, 105, 189, 1)',
-                            'rgba(74, 105, 189, 1)',
-                            'rgba(74, 105, 189, 1)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    indexAxis: 'y', /* This makes the bar chart horizontal */
-                    onClick: (evt, elements) => {
-                        if (elements.length > 0) {
-                            const firstElement = elements[0];
-                            const label = hydrogenEnergyChart.data.labels[firstElement.index];
-                            const detail = milestoneDetails[label];
-                            if (detail) {
-                                hydrogenMilestoneDetail.textContent = detail;
-                                hydrogenMilestoneDetail.classList.remove('hidden');
-                            } else {
-                                hydrogenMilestoneDetail.classList.add('hidden');
-                            }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false,
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    let label = context.dataset.label || '';
-                                    if (label) {
-                                        label += ': ';
-                                    }
-                                    label += context.parsed.x + '年'; /* For horizontal bar, value is on x-axis */
-                                    return label;
-                                },
-                                title: function(context) {
-                                    const title = context[0].label; /* Label is still accessed this way */
-                                    const charLimit = 16;
-                                    if (title.length > charLimit) {
-                                        let parts = [];
-                                        for (let i = 0; i < title.length; i += charLimit) {
-                                            parts.push(title.substring(i, i + charLimit));
-                                        }
-                                        return parts;
-                                    }
-                                    return title;
-                                }
-                            }
-                        },
-                        title: {
-                            display: true,
-                            text: '李博士氫能科技發展里程碑 (點擊長條了解詳情)',
-                            font: {
-                                size: 16,
-                                weight: 'bold'
-                            },
-                            color: '#2c3e50'
-                        }
-                    },
-                    scales: {
-                        y: { /* This is now the category axis */
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: '里程碑事件', /* Swapped axis titles */
-                                color: '#2c3e50'
-                            },
-                            ticks: {
-                                callback: function(value, index, values) {
-                                    const label = this.getLabelForValue(value);
-                                    const charLimit = 16; /* Apply wrapping to category labels */
-                                    if (label.length > charLimit) {
-                                        let parts = [];
-                                        for (let i = 0; i < label.length; i += charLimit) {
-                                            parts.push(label.substring(i, i + charLimit));
-                                        }
-                                        return parts;
-                                    }
-                                    return label;
-                                },
-                                color: '#2c3e50'
-                            }
-                        },
-                        x: { /* This is now the value axis */
-                            min: 2000, /* Start year from 2000 */
-                            title: {
-                                display: true,
-                                text: '年份', /* Swapped axis titles */
-                                color: '#2c3e50'
-                            },
-                            ticks: {
-                                callback: function(value) {
-                                    return value;
-                                },
-                                color: '#2c3e50'
-                            }
-                        }
-                    }
-                }
-            });
-
-            // Cross-discipline details
-            const disciplineDetails = document.getElementById('discipline-details');
-            const disciplineContent = {
-                '醫學': '李博士曾作為醫生三年，並在疫情期間無償協助中醫院看診上千人，展現其醫者仁心。他還研究貼片殺菌技術。',
-                '哲學': '李博士對哲學有深入探索，尤其在對人類「更新代」本質和能量場、磁場等現象的研究中，結合了科學與哲學思考。',
-                '人文': '他強調中文文化、邏輯思維對個人發展的影響，並深諳中華傳統文化，如成語「因勢利導」的智慧。他心繫社會，期望年輕一代貢獻社會。',
-                '玄學': '李博士對玄學也有興趣，曾研究易經、術數與靈學，並與道長、靈界專長人士交流，探討科學與玄學的交匯點。'
-            };
-
-            document.querySelectorAll('.cross-discipline-item').forEach(item => {
-                item.addEventListener('click', () => {
-                    const discipline = item.textContent;
-                    disciplineDetails.textContent = disciplineContent[discipline];
-                    disciplineDetails.classList.remove('hidden');
-                });
-            });
-        });
-    </script>
-</body>
-</html>
